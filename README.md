@@ -2,22 +2,6 @@
 This is a VERY simple tic-tac-toe game using Godot 3.1. I wrote this some time ago and recently
 refined it after Godot 3.1 was release. This game does not use a _process loop. Instead it's entirely event driven by the button clicks. This game is single player vs computer.
 
-![alt text](https://github.com/bitbionic/tic-tac-toe-gd3/blob/master/ATT.png)
-
-## Youtube overview
-I have a Youtube overview here: https://youtu.be/2yIAXi9c2ag
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/2yIAXi9c2ag/0.jpg)](https://www.youtube.com/watch?v=2yIAXi9c2ag)
-
-
-## History
-When I interview software engineers for a new job, I sometimes ask them to write the logic
-for a tic tac toe game, assuming the UI is developed for them. Their task is to represent
-the game state and check for the win / lose / tie conditions - if they knock that out of the park
-we start talking about ways to code the AI, and computational complexity if we decided to change
-the game to 4 in a row or 5 in a row. I thought it might be fun to do the exercise with Godot, 
-and thus this project was born.
-
 ## Scoring
 The board uses a simple array of buttons each of which holds a value initialized to zero.
 I use the constants 1 and 10 to represent the player values X and O. Setting the board
